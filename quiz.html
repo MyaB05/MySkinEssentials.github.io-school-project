@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skin Analysis Quiz | MySkinEssentials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+        <h1>MySkinEssentials</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="quiz.html">Skin Quiz</a></li>
+            <li><a href="products.html">Find Products</a></li>
+            <li><a href="ingredients.html">Ingredients for You</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <div class="quiz-container">
+        <header class="quiz-intro">
+            <h2>The Skin Analysis</h2>
+            <p>Answer these questions to unlock your personalized routine.</p>
+        </header>
+
+        <form action="products.html" class="skin-form">
+    
+    <section id="q1" class="quiz-section">
+        <span class="step-num">Question 1</span>
+        <p class="question-text">What is your primary skin goal?</p>
+        <div class="radio-grid">
+            <label class="radio-card">
+                <input type="radio" name="goal" value="glow" required>
+                <span class="card-content">
+                    <strong class="card-title">Daily Glow</strong>
+                    <span class="card-desc">Brighten dullness and even out skin tone.</span>
+                </span>
+            </label>
+            <label class="radio-card">
+                <input type="radio" name="goal" value="clear">
+                <span class="card-content">
+                    <strong class="card-title">Clear Skin</strong>
+                    <span class="card-desc">Target active breakouts, hyperpigmentation, and minimize pores.</span>
+                </span>
+            </label>
+        </div>
+        <div class="quiz-footer"><a href="#q2" class="btn-primary">Next Step →</a></div>
+    </section>
+
+    <section id="q2" class="quiz-section">
+        <span class="step-num">Question 2</span>
+        <p class="question-text">How does your skin feel midday?</p>
+        <div class="radio-grid">
+            <label class="radio-card">
+                <input type="radio" name="type" value="oily">
+                <span class="card-content">
+                    <strong class="card-title">Shiny / Oily</strong>
+                    <span class="card-desc">Visible oily, Primarily in the T-zone.</span>
+                </span>
+            </label>
+            <label class="radio-card">
+                <input type="radio" name="type" value="dry">
+                <span class="card-content">
+                    <strong class="card-title">Tight / Dry</strong>
+                    <span class="card-desc">Feels parched or shows visible flaking.</span>
+                </span>
+            </label>
+			
+			<label class="radio-card">
+                <input type="radio" name="type" value="Normal">
+                <span class="card-content">
+                    <strong class="card-title">Normal/No issues</strong>
+                    <span class="card-desc">Feels normal.</span>
+                </span>
+            </label>
+			
+			<label class="radio-card">
+                <input type="radio" name="type" value="Normal">
+                <span class="card-content">
+                    <strong class="card-title">Combo</strong>
+                    <span class="card-desc">Feels slightly dry or oily throughout the day.</span>
+                </span>
+            </label>
+        </div>
+        <div class="quiz-footer"><a href="#q3" class="btn-primary">Next Step →</a></div>
+    </section>
+
+    <section id="q3" class="quiz-section">
+        <span class="step-num">Question 3</span>
+        <p class="question-text">How sensitive is your skin?</p>
+        <div class="radio-grid">
+            <label class="radio-card">
+                <input type="radio" name="sensitivity" value="high">
+                <span class="card-content">
+                    <strong class="card-title">Sensitive</strong>
+                    <span class="card-desc">Easily experience redness,irritation, or stinging certain new products.</span>
+                </span>
+            </label>
+            <label class="radio-card">
+                <input type="radio" name="sensitivity" value="low">
+                <span class="card-content">
+                    <strong class="card-title">Resilient</strong>
+                    <span class="card-desc">My skin handles most ingredients well.</span>
+                </span>
+            </label>
+        </div>
+        <div class="quiz-footer"><a href="#q4" class="btn-primary">Next Step →</a></div>
+    </section>
+
+    <section id="q4" class="quiz-section">
+        <span class="step-num">Question 4</span>
+        <p class="question-text">What's your current skin concern?</p>
+        <div class="radio-grid">
+            <label class="radio-card">
+                <input type="radio" name="struggle" value="clogged">
+                <span class="card-content">
+                    <strong class="card-title">Clogged Pores</strong>
+                    <span class="card-desc">Blackheads and texture are my main issues.</span>
+                </span>
+            </label>
+            <label class="radio-card">
+                <input type="radio" name="struggle" value="aging">
+                <span class="card-content">
+                    <strong class="card-title">Fine Lines/Wrinkles</strong>
+                    <span class="card-desc">I want to focus on prevention and elasticity.</span>
+                </span>
+            </label>
+        </div>
+        <div class="quiz-footer"><a href="#q5" class="btn-primary">Next Step →</a></div>
+    </section>
+
+    <section id="q5" class="quiz-section">
+        <span class="step-num">Question 5</span>
+        <p class="question-text">What texture do you prefer for moisturizer?</p>
+        <div class="radio-grid">
+            <label class="radio-card">
+                <input type="radio" name="texture" value="gel">
+                <span class="card-content">
+                    <strong class="card-title">Lightweight Gel</strong>
+                    <span class="card-desc">Absorbs quickly without any greasiness.</span>
+                </span>
+            </label>
+            <label class="radio-card">
+                <input type="radio" name="texture" value="cream">
+                <span class="card-content">
+                    <strong class="card-title">Rich Cream</strong>
+                    <span class="card-desc">Thick and nourishing for deep hydration.</span>
+                </span>
+            </label>
+        </div>
+        <div class="quiz-footer">
+            <a href="products.html" class="submit-btn">Reveal My Products →</a>
+        </div>
+    </section>
+
+		</form>
+    </div>
+</main>
+
+</body>
+</html>
+				
+				
+			
